@@ -1,0 +1,151 @@
+.circle {
+	position: relative;
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-clip: padding-box;				
+	outline: 0;
+	border: 0;
+}
+.circle.main {
+	padding: 0;
+	background-color: #5a6bde;
+	background-repeat: no-repeat;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	cursor: pointer;
+	overflow: hidden;
+	transform-origin: center center;
+}
+
+.circle.main:active {
+	transform: scale(0.95);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.4);
+}
+
+.circle.gobutton {
+	padding: 4px;
+	background-color: transparent;			
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 0;
+	outline: none;
+}
+
+.circle.gobutton .loader {
+	display: block;	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 0;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('loader.svg');
+	opacity: 0;
+	background-color: rgba(255, 255, 255, 0.35);
+}
+
+.main.circle .shade {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: inherit;
+    margin: auto;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.2);
+    width: 0;
+    height: 0;
+    transform-origin: center center;
+}
+
+.main.circle .shade {
+ 	animation: blind .25s ease-in-out 0s 1;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+@keyframes blind{
+	0% {
+		width: 0%;
+		height: 0%;
+	}
+
+	100% {
+		width: 100%;
+		height: 100%;
+	}
+}
+@keyframes stopspin{
+	0% {
+		opacity: 1;
+	}
+	50%{
+		opacity: 1;
+		width: 100%;
+		height: 100%;				
+		background-color: transparent;
+	}
+	100% {
+		width: 0%;
+		height: 0%;
+		opacity: 0;
+		background-color: transparent;
+		transform: rotate(1800deg);
+	}
+}
+@keyframes stop{
+	0% {
+		opacity: 1;
+	}
+	50%{
+		opacity: 1;
+		width: 100%;
+		height: 100%;			
+		background-color: transparent;
+	}
+	100% {
+		width: 0%;
+		height: 0%;
+		background-color: transparent;
+		transform: rotate(1800deg);
+	}
+}
+@keyframes spin{
+	0% {
+		opacity: 0.2;
+		transform: rotate(0deg);
+		background-color: transparent;
+	}
+	5%{
+		opacity: 1;
+	}
+	70%{
+		background-color: transparent;
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(3600deg);
+	}
+}
+@keyframes infinitespin{
+	0% {
+		opacity: 1;
+		transform: rotate(0deg);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(360deg);
+	}
+}

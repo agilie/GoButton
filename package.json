@@ -1,0 +1,32 @@
+{
+  "name": "gobutton",
+  "version": "1.0.0",
+  "description": "jquery plagin",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.cool.soft:bohdan.zolotukhin/gobutton-plugin.git"
+  },
+  "keywords": [
+    "jquery",
+    "button",
+    "plugin"
+  ],
+  "author": "Agilie",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.0.4",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "run-sequence": "^1.2.2"
+  }
+}
