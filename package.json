@@ -18,9 +18,9 @@
   "author": "Agilie",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.4",
     "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",

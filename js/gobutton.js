@@ -300,7 +300,7 @@
 	        return c.join('');
 		}
 
-		function  contrastColor(hexcolor){
+		function  contrastColor(hexcolor) {
 		    return (parseInt(hexcolor, 16) > 0xffffff/2) ? 'rgba(86, 77, 77, 0.3)':'rgba(214, 205, 205, 0.2)';
 		}
 
