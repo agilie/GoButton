@@ -202,5 +202,12 @@ button.gobutton.start();
 		</td>
 	</tr>
 </table>
+## Troubleshooting
+Problems? Check the [Issues](issues) block 
+to find the solution or create an new issue that we will fix asap. Feel free to contribute.
+## Author
+This jQuery plugin is open-sourced by [Agilie Team](https://www.agilie.com) ([info@agilie.com](mailto:info@agilie.com))
+## Contributor
+[Bohdan Zolotukhyn](https://github.com/fargo23) ([bohdan.zolotukhin@agilie.com](mailto:bohdan.zolotukhin@agilie.com))
 ## License
 The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
