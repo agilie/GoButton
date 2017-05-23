@@ -1,6 +1,6 @@
 {
   "name": "gobutton",
-  "description": "jquery plugin which add animation for html button",
+  "description": "jQuery plugin which adds animation for html button",
   "main": [
     "dist/js/gobutton.js",
     "dist/css/gobutton.css"
