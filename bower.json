@@ -1,0 +1,38 @@
+{
+  "name": "gobutton",
+  "description": "jquery plugin which add animation for html button",
+  "main": [
+    "dist/js/gobutton.js",
+    "dist/css/gobutton.css"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    "Agilie Team <info@agilie.com> (https://agilie)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "button",
+    "plugin",
+    "animation"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "jquery": ""
+  }
+}
