@@ -202,3 +202,5 @@ button.gobutton.start();
 		</td>
 	</tr>
 </table>
+## License
+The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
