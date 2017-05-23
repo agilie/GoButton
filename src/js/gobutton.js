@@ -10,11 +10,11 @@
 		wrap = $('<div class="circle gobutton"><div class="loader"></div></div>');
 
 		settings = $.extend({
-			size: '70',
-			color: '',
-			loaderGap: '4',
-			loaderColor: '#fff',
-			loaderWidth: '4',
+			size: '100',
+			color: '#25CED1',
+			loaderGap: '6',
+			loaderColor: '#25CED1',
+			loaderWidth: '3',
 			infiniteSpin: false,
 			animationSpeed: 2.5,
 			waves: true,
