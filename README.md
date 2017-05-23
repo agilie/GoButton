@@ -24,14 +24,14 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
 ##### As a result:
 ```html
 <div class="circle gobutton" style="width: 100px; height: 100px; padding: 6px;">
-    <div class="loader" style="background-image: url("data:image/svg+xml;base64..."); background-color: rgba(37, 206, 209, 0.2);"></div>
+    <div class="loader" style="background-image: url('data:image/svg+xml;base64...'); background-color: rgba(37, 206, 209, 0.2);"></div>
     <button class="foo main circle" style="width: 100px; height: 100px; background-color: rgb(37, 206, 209);">
         <img src="https://image.svg" style="height: 100%;">
     </button>
 </div>
 
 <div class="circle gobutton" style="width: 100px; height: 100px; padding: 6px;">
-    <div class="loader" style="background-image: url("data:image/svg+xml;base64..."); background-color: rgba(37, 206, 209, 0.2);"></div>
+    <div class="loader" style="background-image: url('data:image/svg+xml;base64...'); background-color: rgba(37, 206, 209, 0.2);"></div>
     <button class="main circle" style="width: 100px; height: 100px; background-color: rgb(37, 206, 209);">
         Some Text
     </button>
