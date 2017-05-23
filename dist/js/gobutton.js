@@ -10,11 +10,11 @@
 		wrap = $('<div class="circle gobutton"><div class="loader"></div></div>');
 
 		settings = $.extend({
-			size: '70',
-			color: '',
-			loaderGap: '4',
-			loaderColor: '#fff',
-			loaderWidth: '4',
+			size: '100',
+			color: '#25CED1',
+			loaderGap: '6',
+			loaderColor: '#25CED1',
+			loaderWidth: '3',
 			infiniteSpin: false,
 			animationSpeed: 2.5,
 			waves: true,
@@ -300,7 +300,7 @@
 	        return c.join('');
 		}
 
-		function  contrastColor(hexcolor){
+		function  contrastColor(hexcolor) {
 		    return (parseInt(hexcolor, 16) > 0xffffff/2) ? 'rgba(86, 77, 77, 0.3)':'rgba(214, 205, 205, 0.2)';
 		}
 
