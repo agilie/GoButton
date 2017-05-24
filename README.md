@@ -202,6 +202,10 @@ button.gobutton.start();
 		</td>
 	</tr>
 </table>
+##Examples 
+    ##### [Base usage](examples/base usage/index.html)
+    
+
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
 to find the solution or create an new issue that we will fix asap. Feel free to contribute.
