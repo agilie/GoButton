@@ -204,7 +204,7 @@ button.gobutton.start();
 </table>
 
 ## Examples 
-##### [Base usage](examples/base usage/base_usage.html)
+##### <a href="examples/base usage/base_usage.html" target="_blank">Base usage</a>
 ```html
     <button>GO</button>
     <script type="text/javascript">
@@ -226,7 +226,15 @@ button.gobutton.start();
     </script>
 ```
 ![Preview](examples/custom size with infinite spin/custome_size.gif)
-
+To make the loader rotation smoother, it should be supplemented with a semitransparent background of the same color. But there are cases when it loses its nicety: too large button sizes (>100 pixels), a big gap between the button and the loader, low animation speed. Therefore, in these cases, you have to remove the background by writing the following style to the loader:
+```html
+<style>
+  .loader {
+    background-color: transparent!important;
+  }
+</style>
+```
+![Preview](examples/custom size with infinite spin/transparetn_back.gif)
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
 to find the solution or create an new issue that we will fix asap. Feel free to contribute.
