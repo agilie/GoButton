@@ -7,7 +7,10 @@
   ],
   "version": "1.0.0",
   "authors": [
-    "Agilie Team <info@agilie.com> (https://agilie)"
+    "Agilie Team <info@agilie.com> (https://agilie.com)"
+  ],
+  "contributors": [
+    "Bohdan Zolotukhyn <bohdan.zolotukhin@agilie.com> (https://github.com/fargo23)"
   ],
   "repository": {
     "type": "git",
