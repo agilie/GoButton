@@ -1,7 +1,5 @@
 # GoButton
-Usually, people don’t like to wait and do “nothing”. For make waiting time as pleasant or at least tolerable as possible, we are excited to introduce you our new plugin named GOBUTTON.
-
-Gobutton it's jQuery plugin which adds animation to html button and make it round.
+This button is used for displaying an animation while a request is going. It could be run with infinite animation loop or with finit animation as well.
 
 **Current version:** *1.0.0*
 ## Installation 
@@ -40,15 +38,15 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
 ### Configuration
 <table width="100%">
 	<tr>
-		<th valign="top" width="120px" align="left">Setting</th>
+		<th valign="top" width="120px" align="left">Setting name</th>
 		<th valign="top" align="left">Description</th>
 		<th valign="top" width="60px" align="left">Type</th>
-		<th valign="top" width="60px" align="left">Default</th>
+		<th valign="top" width="60px" align="left">Default value</th>
 	</tr>
     <tr>
 		<td valign="top"><code>size</code></td>
 		<td valign="top">
-        	Button size in pixels
+        	A button size (pixels)
 		</td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top"><code>"100"</code></td>
@@ -56,7 +54,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>color</code></td>
 		<td valign="top">
-        	Button color in css supported formats (RGB, RGBA, HEX ect.).
+        	A button color (please, use CSS supported formats - RGB, RGBA, HEX ect.).
 		</td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top"><code>"#25CED1"</code></td>
@@ -64,7 +62,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>loaderGap</code></td>
 		<td valign="top">
-        	Gap between loader and button in pixels.
+        	A gap between loader and button's body (pixels).
 		</td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top"><code>"6"</code></td>
@@ -72,7 +70,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>loaderWidth</code></td>
 		<td valign="top">
-        	Loader width in pixels.
+        	A loader element width (pixels).
 		</td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top"><code>"3"</code></td>
@@ -80,7 +78,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>loaderColor</code></td>
 		<td valign="top">
-        	Loader color in RGB, RGBA or HEX format.
+        	A loader color (RGB, RGBA or HEX format).
 		</td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top"><code>"#25CED1"</code></td>
@@ -96,7 +94,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>animationSpeed</code></td>
 		<td valign="top">
-        	The time of the initial animation in seconds. The total animation time varies depending on the "infiniteSpin" flag. If the animation is finite then its time is equal to: animationSpeed + 0.5s.
+        	A time of the initial animation (seconds). The total animation time varies depending on the "infiniteSpin" flag. If the animation is finite then its time is equal to: animationSpeed + 0.5s.
 		</td>
 		<td valign="top"><code>int</code></td>
 		<td valign="top"><code>2.5</code></td>
@@ -104,7 +102,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>classes</code></td>
 		<td valign="top">
-        	Add classes to the wrapper element.
+        	Classes which will be added to the wrapper element.
 		</td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top"><code>""</code></td>
@@ -112,7 +110,7 @@ Gobutton it's jQuery plugin which adds animation to html button and make it roun
     <tr>
 		<td valign="top"><code>disable</code></td>
 		<td valign="top">
-        	Adds the "disabled" attribute to the button. (Similarly to the native way elem.disabled = true)
+        	This setting adds the "disabled" attribute to the button. (Similarly to the native way - elem.disabled = true)
 		</td>
 		<td valign="top"><code>boolean</code></td>
 		<td valign="top"><code>false</code></td>
