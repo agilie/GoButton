@@ -212,7 +212,7 @@ button.gobutton.start();
     </script>
 ```
 ![Preview](examples/base usage/base_usage.gif)
-##### ![Custom size with infinite spin](examples/custom size with infinite spin/custom_size_with_infinite_spin.html)
+##### <a href="examples/custom size with infinite spin/custom_size_with_infinite_spin.html" target="_blank">Custom size with infinite spin</a>
 ```html
     <button>GO</button>
     <script type="text/javascript">
