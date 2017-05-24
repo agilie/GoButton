@@ -202,15 +202,15 @@ button.gobutton.start();
 </table>
 
 ## Examples 
-##### <a href="examples/base usage/base_usage.html" target="_blank">Base usage</a>
+##### <a href="examples/base_usage/base_usage.html" target="_blank">Base usage</a>
 ```html
     <button>GO</button>
     <script type="text/javascript">
         $('button').gobutton();
     </script>
 ```
-![Preview](examples/base usage/base_usage.gif)
-##### <a href="examples/custom size with infinite spin/custom_size_with_infinite_spin.html" target="_blank">Custom size with infinite spin</a>
+![Preview](examples/base_usage/base_usage.gif)
+##### <a href="examples/custom_size_with_infinite_spin/custom_size_with_infinite_spin.html" target="_blank">Custom size with infinite spin</a>
 ```html
     <button>GO</button>
     <script type="text/javascript">
@@ -224,7 +224,7 @@ button.gobutton.start();
     </script>
 ```
 
-![Preview](examples/custom size with infinite spin/custome_size.gif)
+![Preview](examples/custom_size_with_infinite_spin/custome_size.gif)
 
 To make the loader rotation smoother, it should be supplemented with a semitransparent background of the same color. But there are cases when it loses its nicety: too large button sizes (>100 pixels), a big gap between the button and the loader, low animation speed. Therefore, in these cases, you have to remove the background by writing the following style to the loader:
 ```html
@@ -234,8 +234,7 @@ To make the loader rotation smoother, it should be supplemented with a semitrans
   }
 </style>
 ```
-
-![Preview](https://github.com/agilie/GoButton/examples/custom size with infinite spin/transparetn_back.gif)
+![Preview](examples/custom_size_with_infinite_spin/transparetn_back.gif)
 
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
