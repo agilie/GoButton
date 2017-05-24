@@ -225,7 +225,7 @@ button.gobutton.start();
          });
     </script>
 ```
-![Preview](examples/base usage/custome_size.gif)
+![Preview](examples/custom size with infinite spin/custome_size.gif)
 
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
