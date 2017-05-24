@@ -224,7 +224,7 @@ button.gobutton.start();
     </script>
 ```
 
-![Preview](examples/custom size with infinite spin/custome_size.gif)
+![Preview](https://image.flaticon.com/icons/png/128/164/164826.png)
 
 To make the loader rotation smoother, it should be supplemented with a semitransparent background of the same color. But there are cases when it loses its nicety: too large button sizes (>100 pixels), a big gap between the button and the loader, low animation speed. Therefore, in these cases, you have to remove the background by writing the following style to the loader:
 ```html
