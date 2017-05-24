@@ -1,7 +1,7 @@
 {
   "name": "gobutton",
   "version": "1.0.0",
-  "description": "jquery plagin",
+  "description": "jQuery plugin",
   "main": "dist/js/gobutton.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,10 @@
     "button",
     "plugin"
   ],
-  "author": "Bohdan Zolotukhin",
+  "author": "Agilie Team <info@agilie.com> (https://agilie.com)",
+  "contributors": [
+      "Bohdan Zolotukhyn <bohdan.zolotukhin@agilie.com> (https://github.com/fargo23)"
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
