@@ -235,7 +235,7 @@ To make the loader rotation smoother, it should be supplemented with a semitrans
 </style>
 ```
 
-![Preview](/examples/custom size with infinite spin/transparetn_back.gif)
+![Preview](https://github.com/agilie/GoButton/examples/custom size with infinite spin/transparetn_back.gif)
 
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
