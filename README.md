@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/agilie/GoButton)
+
 # GoButton
 This button is used for displaying an animation while a request is going. It could be run with infinite animation loop or with finit animation as well.
 
