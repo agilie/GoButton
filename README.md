@@ -202,9 +202,28 @@ button.gobutton.start();
 		</td>
 	</tr>
 </table>
-##Examples 
-    ##### [Base usage](examples/base usage/index.html)
-    
+
+## Examples 
+##### [Base usage](examples/base usage/base_usage.html)
+```html
+    <button>GO</button>
+    <script type="text/javascript">
+        $('button').gobutton();
+    </script>
+```
+![Preview](examples/base usage/base_usage.gif)
+##### [Custom size](examples/base usage/custom_size.html)
+```html
+    <button>GO</button>
+    <script type="text/javascript">
+        $('button').gobutton({
+             size: 150,
+             loaderGap: '20',
+             loaderWidth: '3',
+             loaderColor: 'rgb(255,0,0)'
+         });
+    </script>
+```
 
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
