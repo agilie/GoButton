@@ -212,18 +212,20 @@ button.gobutton.start();
     </script>
 ```
 ![Preview](examples/base usage/base_usage.gif)
-##### [Custom size](examples/base usage/custom_size.html)
+##### [Custom size](examples/custom size with infinite spin/custom_size_with_infinite_spin.html)
 ```html
     <button>GO</button>
     <script type="text/javascript">
         $('button').gobutton({
-             size: 150,
-             loaderGap: '20',
-             loaderWidth: '3',
-             loaderColor: 'rgb(255,0,0)'
+            size: 150,
+            loaderGap: '20',
+            loaderWidth: '3',
+            loaderColor: 'rgb(255,0,0)',
+            infiniteSpin: true
          });
     </script>
 ```
+![Preview](examples/base usage/custome_size.gif)
 
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
