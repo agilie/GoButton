@@ -137,7 +137,7 @@ This button is used for displaying an animation while a request is going. It cou
     <tr>
 		<td valign="top"><code>onAnimationStart(event)</code></td>
 		<td valign="top">
-        	An event that triggers after the start of each animation (see the list of animations). The parameters - animation event.
+        	An event that triggers after the start of each animation (see the list of animations). Animation event as a parameter.
 		</td>
 		<td valign="top"><code>function</code></td>
 		<td valign="top"><code>null</code></td>
@@ -145,7 +145,7 @@ This button is used for displaying an animation while a request is going. It cou
     <tr>
 		<td valign="top"><code>onAnimationStop(event)</code></td>
 		<td valign="top">
-        	An event that triggers after the end of each animation (see the list of animations). The parameters - animation event.
+        	An event that triggers after the end of each animation (see the list of animations). Animation event as a parameter.
 		</td>
 		<td valign="top"><code>function</code></td>
 		<td valign="top"><code>null</code></td>
@@ -155,7 +155,7 @@ This button is used for displaying an animation while a request is going. It cou
 ##### Animations list
 * *spin* - the main animation of the unwinding of the loader
 * *infinitespin* - run after *spin*. Animation of infinite rotation, it works if the flag was set.
-* *stopspoin* - run after *spin*. Animation stops rotation, it works depending on the set flag of infinite animation.
+* *stopspin* - run after *spin*. Animation stops rotation, it works depending on the set flag of infinite animation.
 * *stop* - the rotation stop animation is triggered by a second press of the button or stopping via the stop method.
 
 ##### Methods
@@ -178,25 +178,25 @@ button.gobutton.start();
     <tr>
 		<td valign="top"><code>start()</code></td>
 		<td valign="top">
-        	Method which run animation.
+        	Start animation.
 		</td>
 	</tr>
     <tr>
 		<td valign="top"><code>stop()</code></td>
 		<td valign="top">
-        	Method which run stop animation.
+        	Stop animation.
 		</td>
 	</tr>
     <tr>
 		<td valign="top"><code>infiniteStart(speed)</code></td>
 		<td valign="top">
-        	Run infinite roatation animation. In parametr get time of one spin in seconds.
+        	Run infinite roatation animation. A time of one spin in seconds as a parameter.
 		</td>
 	</tr>
     <tr>
 		<td valign="top"><code>changeOption(nameOrOptions, valueOrNothing || {})</code></td>
 		<td valign="top">
-        	Change one of options. In parametr get option name and value, or options object.
+        	Change one of options. Option name and value, or options object as parameters.
 		</td>
 	</tr>
 </table>
@@ -233,13 +233,18 @@ To make the loader rotation smoother, it should be supplemented with a semitrans
   }
 </style>
 ```
+
 ![Preview](examples/custom size with infinite spin/transparetn_back.gif)
+
 ## Troubleshooting
 Problems? Check the [Issues](issues) block 
 to find the solution or create an new issue that we will fix asap. Feel free to contribute.
+
 ## Author
 This jQuery plugin is open-sourced by [Agilie Team](https://www.agilie.com) ([info@agilie.com](mailto:info@agilie.com))
+
 ## Contributor
 [Bohdan Zolotukhyn](https://github.com/fargo23) ([bohdan.zolotukhin@agilie.com](mailto:bohdan.zolotukhin@agilie.com))
+
 ## License
 The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
