@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.cool.soft:bohdan.zolotukhin/gobutton-plugin.git"
+    "url": "git@github.com:agilie/GoButton.git"
   },
   "keywords": [
     "jquery",
