@@ -1,9 +1,10 @@
+Check this project on [Dribbble](https://dribbble.com/shots/2896331-Flash-Garage-concept).
+
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/agilie/GoButton)
 
 # GoButton
 This button is used for displaying an animation while a request is going. It could be run with infinite animation loop or with finit animation as well.
 
-**Current version:** *1.0.0*
 ## Installation 
 ##### Standalon:
 ```html
@@ -246,7 +247,12 @@ to find the solution or create an new issue that we will fix asap. Feel free to 
 This jQuery plugin is open-sourced by [Agilie Team](https://www.agilie.com) ([info@agilie.com](mailto:info@agilie.com))
 
 ## Contributor
-[Bohdan Zolotukhyn](https://github.com/fargo23) ([bohdan.zolotukhin@agilie.com](mailto:bohdan.zolotukhin@agilie.com))
+[Bohdan Zolotukhyn](https://github.com/fargo23)
+
+## Contact us
+If you have any questions, suggestions or just need a help with web or mobile development, please email us at <web@agilie.com>. You can ask us anything from basic to complex questions.
+
+We will continue publishing new open-source projects. Stay with us, more updates will follow!
 
 ## License
 The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
