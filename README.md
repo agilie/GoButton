@@ -1,4 +1,16 @@
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/agilie/GoButton)
+<p align="center">
+  <img width="600" src="examples/GoButton.png" alt="Logo">
+</p>
+<p align="center">
+
+<a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Ruby&utm_term=instagram_api_gem">
+<img src="https://img.shields.io/badge/Made%20by%20Agilie-*****-green.svg?style=flat" alt="Made by Agilie">
+</a>
+
+<a href="https://github.com/agilie/GoButton/blob/master/LICENSE.md">
+  <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License">
+</a>
+</p>
 
 # GoButton
 This button is used for displaying an animation while a request is going. It could be run with infinite animation loop or with finit animation as well.
