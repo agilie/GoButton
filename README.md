@@ -9,7 +9,7 @@
   </a>
 </p>
 <p align="center">
-<a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Ruby&utm_term=instagram_api_gem">
+<a href="https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_JS&utm_term=GoButton">
 <img src="https://img.shields.io/badge/Made%20by%20Agilie-*****-green.svg?style=flat" alt="Made by Agilie">
 </a>
 
@@ -260,7 +260,7 @@ Problems? Check the [Issues](https://github.com/agilie/GoButton/issues) block
 to find the solution or create an new issue that we will fix asap. Feel free to contribute.
 
 ## Author
-This jQuery plugin is open-sourced by [Agilie Team](https://www.agilie.com) ([info@agilie.com](mailto:info@agilie.com))
+This jQuery plugin is open-sourced by [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_JS&utm_term=GoButton) ([info@agilie.com](mailto:info@agilie.com))
 
 ## Contributor
 [Bohdan Zolotukhyn](https://github.com/fargo23)
@@ -271,4 +271,4 @@ If you have any questions, suggestions or just need a help with web or mobile de
 We will continue publishing new open-source projects. Stay with us, more updates will follow!
 
 ## License
-The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com)
+The [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_JS&utm_term=GoButton)
