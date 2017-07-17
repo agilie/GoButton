@@ -10,9 +10,11 @@
 <a href="https://github.com/agilie/GoButton/blob/master/LICENSE.md">
   <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License">
 </a>
-</p>
 
-Check this project on [Dribbble](https://dribbble.com/shots/2896331-Flash-Garage-concept).
+Check this project on <a href="https://dribbble.com/shots/2896331-Flash-Garage-concept">
+Dribbble
+</a>
+</p>
 
 # GoButton
 This button is used for displaying an animation while a request is going. It could be run with infinite animation loop or with finit animation as well.
