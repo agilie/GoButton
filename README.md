@@ -263,7 +263,7 @@ to find the solution or create an new issue that we will fix asap. Feel free to 
 This jQuery plugin is open-sourced by [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_JS&utm_term=GoButton) ([info@agilie.com](mailto:info@agilie.com))
 
 ## Contributor
-[Bohdan Zolotukhyn](https://github.com/fargo23)
+[Agilie Team](https://github.com/agilie)
 
 ## Contact us
 If you have any questions, suggestions or just need a help with web or mobile development, please email us at <web@agilie.com>. You can ask us anything from basic to complex questions.
